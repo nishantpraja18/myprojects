@@ -1,0 +1,1 @@
+print("average trip time duration: \n",(f["od_end_time"]-f["od_start_time"]).mean())
