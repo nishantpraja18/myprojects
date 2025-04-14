@@ -43,14 +43,34 @@ import matplotlib.pyplot as plt
 
 
 
-fig=plt.figure()
-ax=fig.add_subplot(111,projection='3d')
-x=np.random.rand(50)
-y=np.random.rand(50)
-z=np.random.rand(50)
-ax.scatter(x,y,z,c='r',marker='o')
-ax.set_xlabel("X-axis")
-ax.set_ylabel("Y-axis")
-ax.set_zlabel("z-lable")
-plt.title("3d Scatter plot")
-plt.show()
+# fig=plt.figure()
+# ax=fig.add_subplot(111,projection='3d')
+# x=np.random.rand(50)
+# y=np.random.rand(50)
+# z=np.random.rand(50)
+# ax.scatter(x,y,z,c='r',marker='o')
+# ax.set_xlabel("X-axis")
+# ax.set_ylabel("Y-axis")
+# ax.set_zlabel("z-lable")
+# plt.title("3d Scatter plot")
+# plt.show()
+
+
+# y=[6,5]
+# z=[4,4]
+# plt.figure(figsize=(8,5))
+# plt.plot(y,z,color='red',marker='*',linestyle='--')
+# plt.title("xy")
+# plt.xlabel("kv")
+# plt.ylabel("uj")
+# plt.grid(True)
+# plt.tight_layout()
+# plt.legend()
+# plt.show()
+
+
+# p=[4,8,15,6,4]
+# q=[4,8,6,16,5]
+# plt.figure()
+# plt.bar(p,q,color=["gray",'blue'])
+# plt.show()
